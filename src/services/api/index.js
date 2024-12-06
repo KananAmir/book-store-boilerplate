@@ -48,7 +48,7 @@ async function editDataById(endpoint, id, payload) {
   }
 }
 // edit data by id with patch
-async function editDataById(endpoint, id, payload) {
+async function editDataByIdWithPatch(endpoint, id, payload) {
   try {
     const response = await axios.patch(`${BASE_URL}${endpoint}/${id}`, payload);
     return response.data;
