@@ -57,4 +57,11 @@ async function editDataByIdWithPatch(endpoint, id, payload) {
   }
 }
 
-export { getAllData, getDataById, deleteDataById, addNewData, editDataById };
+export {
+  getAllData,
+  getDataById,
+  deleteDataById,
+  addNewData,
+  editDataById,
+  editDataByIdWithPatch,
+};
